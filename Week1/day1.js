@@ -1,3 +1,4 @@
+const fs = require("fs");
 (function testing() {
   console.log(1);
   setTimeout(() => {
@@ -12,3 +13,8 @@
   });
   console.log(6);
 })();
+
+fs.readFile("textFile.txt", () => {
+  setTimeout(() => console.log("Time Out"), 0);
+  setImmediate(() => console.log("Immediate"));
+});
