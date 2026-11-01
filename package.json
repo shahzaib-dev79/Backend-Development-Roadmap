@@ -4,7 +4,8 @@
   "description": "This repository is a collection of the code i write while learning backend development in NodeJS following a proper roadmap to become a job ready backend developer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node Week1/day1.js"
   },
   "repository": {
     "type": "git",
